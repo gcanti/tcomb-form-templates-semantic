@@ -1,6 +1,6 @@
 {
   "name": "tcomb-form-templates-semantic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "semantic templates for tcomb-form",
   "main": "lib/index.js",
   "files": [

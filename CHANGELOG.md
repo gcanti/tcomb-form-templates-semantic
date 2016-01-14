@@ -12,6 +12,11 @@
 **Note**: Gaps between patch versions are faulty/broken releases.
 **Note**: A feature tagged as Experimental is in a high state of flux, you're at risk of it changing without notice.
 
+## v0.1.1
+
+- **Bug Fix**
+  - wrong `name` attribute for hidden textboxes
+
 ## v0.1.0
 
 Initial release (`"tcomb-form": "^0.8.0"`)
