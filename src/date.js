@@ -38,7 +38,7 @@ function create(overrides = {}) {
   }
 
   date.renderDate = overrides.renderDate || function renderCheckbox(locals) {
-    const value = locals.value.slice()
+    const value = locals.value.map(x => x || '')
 
     function onDayChange(evt) {
       value[2] = evt.target.value === '-' ? null : evt.target.value
