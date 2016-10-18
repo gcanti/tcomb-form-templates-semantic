@@ -12,6 +12,11 @@
 **Note**: Gaps between patch versions are faulty/broken releases.
 **Note**: A feature tagged as Experimental is in a high state of flux, you're at risk of it changing without notice.
 
+## v0.2.0
+
+- **Breaking Change**
+  - Use <legend> tag instead of <h4> and remove style object, https://github.com/gcanti/tcomb-form-templates-semantic/pull/5, (@karlguillotte)
+
 ## v0.1.3
 
 - **Bug Fix**
