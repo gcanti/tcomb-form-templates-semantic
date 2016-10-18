@@ -16,16 +16,10 @@ function getClassName(locals) {
 }
 
 export default function renderFieldset(children, locals) {
-  const legend = locals.label ? <h4 className="ui dividing header">{locals.label}</h4> : null
-  const style = locals.path.length === 0 ? {
-    border: 0,
-    margin: 0,
-    padding: 0
-  } : null
+  const legend = locals.label ? <legend className="ui dividing header">{locals.label}</legend> : null
   const props = {
     className: getClassName(locals),
-    disabled: locals.disabled,
-    style: style
+    disabled: locals.disabled
   }
   return React.createElement.apply(null, [
     'fieldset',
